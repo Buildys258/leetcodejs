@@ -22,5 +22,6 @@ var lastRemaining = function(n, m) {
              }
              return result
  
-     
+        
+             
  };
