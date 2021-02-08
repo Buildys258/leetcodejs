@@ -20,6 +20,7 @@ var mergeTwoLists = function(l1, l2) {
         } else {
             pre.next = l2
             l2 = l2.next
+             
         }
         //向前走，拿到val
         pre = pre.next
