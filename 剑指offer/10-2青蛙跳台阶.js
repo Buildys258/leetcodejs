@@ -11,6 +11,7 @@ var numWays = function(n) {
         //dp状态转移方程
         dp[i] = dp[i - 1] + dp[i - 2]
         dp[i] > 1000000007? dp[i] = dp[i] % 1000000007 : dp[i] = dp[i]
+        //2.10没有学习
     }
     return dp[n]
   }
